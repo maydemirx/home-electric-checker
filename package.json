@@ -1,0 +1,28 @@
+{
+  "name": "home-electric-checker",
+  "version": "1.0.0",
+  "description": "This app checks the electric state by using home internet available",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maydemirx/home-electric-checker.git"
+  },
+  "keywords": [
+    "electric",
+    "test"
+  ],
+  "author": "Mehmet Aydemir <maydemirx@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maydemirx/home-electric-checker/issues"
+  },
+  "homepage": "https://github.com/maydemirx/home-electric-checker#readme",
+  "dependencies": {
+    "async": "^2.5.0",
+    "ping": "^0.2.2",
+    "pushover-notifications": "^0.2.4"
+  }
+}
