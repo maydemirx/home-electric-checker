@@ -13,12 +13,6 @@ module.exports = {
 	PUSHOVER_TOKEN: process.env.PUSHOVER_TOKEN || 'none',
 
 	/*
-	* DEVICES: <Comma Delimited String> the string list of the devices that the push notification will be send
-	* if you want to send messages to multiple devices you must separate them by comma like that: device 1,device 2
-	*/
-	DEVICES: process.env.DEVICES || '',
-
-	/*
 	* HOME_HOST: the checker sends the ping to this ip or hostname to check internet connectivity
 	* 	it can be an ip address or dns name
 	*/
@@ -27,8 +21,13 @@ module.exports = {
 
 
 
-
 	// ============= OPTIONAL PARAMETERS ======================================================================
+
+	/*
+	* DEVICES: <Comma Delimited String> the string list of the devices that the push notification will be send
+	* if you want to send messages to multiple devices you must separate them by comma like that: device 1,device 2
+	*/
+	DEVICES: process.env.DEVICES || '',
 
 	/*
 	* DEFAULT_SOUND: <String> The sound playing on the device when the message arrived from push notification api
@@ -64,6 +63,6 @@ module.exports = {
 	* CHECK_PERIOD: <Number> the checker check each this period in miliseconds
 	*/
 
-	CHECK_PERIOD: process.env.CHECK_PERIOD || 1 * 60 * 1000; // each 1 min
+	CHECK_PERIOD: process.env.CHECK_PERIOD || 1 * 60 * 1000 // each 1 min
 
 };
