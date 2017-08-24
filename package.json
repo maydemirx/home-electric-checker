@@ -25,6 +25,7 @@
     "async": "^2.5.0",
     "ping": "^0.2.2",
     "pushover-notifications": "^0.2.4",
-    "redis": "^2.8.0"
+    "redis": "^2.8.0",
+    "tcp-ping": "^0.1.1"
   }
 }
