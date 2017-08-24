@@ -63,7 +63,7 @@ module.exports = {
 	* CHECK_PERIOD: <Number> the checker check each this period in miliseconds
 	*/
 
-	CHECK_PERIOD: process.env.CHECK_PERIOD || 1 * 60 * 1000 // each 1 min
+	CHECK_PERIOD: process.env.CHECK_PERIOD || 1 * 60 * 1000, // each 1 min
 
 	/*
 	* REDIS_URL: <String> the redis url that variables will be saved on
