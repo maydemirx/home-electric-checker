@@ -65,4 +65,16 @@ module.exports = {
 
 	CHECK_PERIOD: process.env.CHECK_PERIOD || 1 * 60 * 1000 // each 1 min
 
+	/*
+	* REDIS_HOST: <String> the redis host that variables will be saved on
+	* 	If you describe the redis host then the app saves own internal variables
+	*	on redis.
+	*/
+	REDIS_HOST: process.env.REDIS_HOST || '',
+
+	/*
+	* REDIS_PORT: 
+	*/
+	REDIS_PORT: process.env.REDIS_PORT || 6379
+
 };
